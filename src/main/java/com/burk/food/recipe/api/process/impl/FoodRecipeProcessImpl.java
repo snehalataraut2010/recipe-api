@@ -32,10 +32,6 @@ public class FoodRecipeProcessImpl implements FoodRecipeProcess {
 
 	private FoodRecipeService foodRecipeService;
 
-	/**
-	 * Autowiring the service class using constructor injection.
-	 */
-	@Autowired
 	public FoodRecipeProcessImpl(FoodRecipeService foodRecipeService) {
 		super();
 		this.foodRecipeService = foodRecipeService;

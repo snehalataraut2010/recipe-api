@@ -46,19 +46,19 @@ public class RecipesEntity implements Serializable {
 	 */
 	private static final long serialVersionUID = 717768084918110723L;
 
-	@Column(name = "recipeId")
+	@Column(name = "recipe_Id")
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int recipeId;
 
-	@Column(name = "recipeName",nullable=false)
+	@Column(name = "recipe_Name",nullable=false)
 	private String recipeName;
 
-	@Column(name = "recipeCategory", nullable = false)
+	@Column(name = "recipe_Category", nullable = false)
 	@Size(min = 3, max = 20)
 	private String recipeCategory;
 
-	@Column(name = "noOfServings",nullable=false)
+	@Column(name = "no_Of_Servings",nullable=false)
 	private int noOfServings;
 
 	@Column(name = "ingredients")

@@ -27,10 +27,6 @@ public class FoodRecipeServiceImpl implements FoodRecipeService {
 
 	private FoodRecipeRepository foodRecipeRepository;
 
-	/**
-	 * AutoWiring the service class for calling service methods.
-	 */
-	@Autowired
 	public FoodRecipeServiceImpl(FoodRecipeRepository foodRecipeRepository) {
 		super();
 		this.foodRecipeRepository = foodRecipeRepository;

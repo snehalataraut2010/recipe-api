@@ -15,7 +15,6 @@ import com.burk.food.recipe.api.entity.RecipesEntity;
  * 
  * @author snehalata.arun.raut
  */
-@Repository
 public interface FoodRecipeRepository extends JpaRepository<RecipesEntity, Integer> {
 
 	/**

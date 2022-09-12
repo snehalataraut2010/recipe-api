@@ -35,7 +35,6 @@ public class FoodRecipeController {
 
 	private FoodRecipeProcess foodRecipeProcess;
 
-	@Autowired
 	public FoodRecipeController(FoodRecipeProcess foodRecipeProcess) {
 		super();
 		this.foodRecipeProcess = foodRecipeProcess;
