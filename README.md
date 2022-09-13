@@ -21,9 +21,11 @@ Eclipse, Postman, Maven 3.X.X, JDK1.8
 
 **How to import the application in IDE:**
 
-1. Go to the File  menu of the InelliJ
-2. Select Open option
-3. Select existing worspace Project(i.e like "workspace name from folder" in our case it is "recipe-api") from our system directory.
+Before importing the project we shoulf install JDK 1.8 on our machine.
+
+1. Go to the File  menu of the Eclipse IDE
+2. Select Import option
+3. Select existing maven project worspace Project(i.e like "workspace name from folder" in our case it is "recipe-api") from our system directory.
 4. In the root directory select the project folder from workspace where we keep the project. 
 5. Check the check box of pom.xml of API
 6. Finish
